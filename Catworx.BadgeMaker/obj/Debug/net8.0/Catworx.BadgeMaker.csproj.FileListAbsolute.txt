@@ -12,3 +12,4 @@ C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\De
 C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.pdb
 C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.genruntimeconfig.cache
 C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\ref\Catworx.BadgeMaker.dll
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.sourcelink.json
