@@ -6,12 +6,22 @@ namespace CatWorx.BadgeMaker
         public string LastName;
         public int Id;
         public string PhotoUrl;
-        public Employee(string firstName, string lastName) {
+        public Employee(string firstName, string lastName, int id, string photoUrl) {
             FirstName = firstName;
-            LastName = LastName;
+            LastName = lastName;
+            Id = id;
+            PhotoUrl = photoUrl;
         }
         public string GetFullName() {
             return FirstName + " " + LastName;
+        }
+
+        public int GetId() {
+            return Id;
+        }
+
+        public string GetPhotoUrl() {
+            return PhotoUrl;
         }
   }
 }
