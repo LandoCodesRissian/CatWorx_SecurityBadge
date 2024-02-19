@@ -1,0 +1,14 @@
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\Catworx.BadgeMaker.exe
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\Catworx.BadgeMaker.deps.json
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\Catworx.BadgeMaker.runtimeconfig.json
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\Catworx.BadgeMaker.dll
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\Catworx.BadgeMaker.pdb
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.AssemblyInfoInputs.cache
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.AssemblyInfo.cs
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.csproj.CoreCompileInputs.cache
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.dll
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\refint\Catworx.BadgeMaker.dll
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.pdb
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.genruntimeconfig.cache
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\ref\Catworx.BadgeMaker.dll
