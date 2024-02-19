@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Catworx.BadgeMaker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50a41c59b5f1c4d0b091ec486354a1480a3ed626")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a440ec30925e85add4563dd32470b22d0ac75163")]
 [assembly: System.Reflection.AssemblyProductAttribute("Catworx.BadgeMaker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Catworx.BadgeMaker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
