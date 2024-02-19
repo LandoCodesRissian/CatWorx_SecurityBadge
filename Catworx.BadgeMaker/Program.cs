@@ -74,6 +74,18 @@ string firstFood = favFoods[0];
 string secondFood = favFoods[1];
 string thirdFood = favFoods[2];
 Console.WriteLine("I like {0}, {1}, and {2}", firstFood, secondFood, thirdFood);
+
+List<string> employees = new List<string>() { "adam", "amy" };
+
+employees.Add("barbara");
+employees.Add("billy");
+
+Console.WriteLine("Current employees");
+Console.WriteLine("------------------");
+for (int i = 0; i < employees.Count; i++)
+{
+    Console.WriteLine("{0}", employees[i]);
+}
     }
   }
 }
