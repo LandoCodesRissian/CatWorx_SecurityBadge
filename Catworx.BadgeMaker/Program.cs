@@ -1,15 +1,37 @@
 ﻿﻿using System;
+using System.IO;
 using System.Collections.Generic;
 
 namespace CatWorx.BadgeMaker
 {
     class Util
     {
+        //Code to Print Employees to cmd
         public static void PrintEmployees(List<Employee> employees) {
             for (int i=0; i < employees.Count; i++)
             {
                 string template = "{0,-10}\t{1,-20}\t{2}";
                 Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetFullName(), employees[i].GetPhotoUrl()));
+            }
+        }
+
+        // Code to make the CSV
+        public static void MakeCSV(List<Employee> employees) 
+        {
+            if (!Directory.Exists("data"))
+            {
+                Directory.CreateDirectory("data");
+            }
+            using (StreamWriter file = new StreamWriter("data/employees.csv"))
+            {
+                file.WriteLine("ID,Name,PhotoURl");
+                
+                // Loop over and write each employee to the file
+                for (int i=0; i < employees.Count; i++)
+                {
+                string template = "{0,-10}\t{1,-20}\t{2}";
+                file.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetFullName(), employees[i].GetPhotoUrl()));
+                }
             }
         }
     }
@@ -50,6 +72,7 @@ static List<Employee> GetEmployees()
         {
             List<Employee> employees = GetEmployees();
             Util.PrintEmployees(employees);
+            Util.MakeCSV(employees);
         }
     }
 }
