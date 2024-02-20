@@ -1,6 +1,7 @@
 # Ignore bin and obj folders
 bin/
 obj/
+data/
 
 # Ignore all .exe, .dll, .pdb, .cache, .csproj.user files, etc.
 *.exe

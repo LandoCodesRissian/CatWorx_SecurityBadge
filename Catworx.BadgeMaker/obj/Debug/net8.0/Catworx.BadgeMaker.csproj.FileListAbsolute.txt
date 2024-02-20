@@ -13,3 +13,10 @@ C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\De
 C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.genruntimeconfig.cache
 C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\ref\Catworx.BadgeMaker.dll
 C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.sourcelink.json
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\SkiaSharp.dll
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx.BadgeMaker.csproj.AssemblyReference.cache
+C:\Users\ic3po\postClassProjects\CatWorx_SecurityBadge\Catworx.BadgeMaker\obj\Debug\net8.0\Catworx..ABCEABD3.Up2Date
