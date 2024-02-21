@@ -51,7 +51,7 @@ async public static Task<List<Employee>> GetFromApi()
         string response = await client.GetStringAsync("https://randomuser.me/api/?results=10&nat=us&inc=name,id,picture");
         JObject json = JObject.Parse(response);
 
-        JArray results = (JArray)json["results"];
+        JArray results = (JArray)json["results"]!;
 
         foreach (JObject person in results)
         {

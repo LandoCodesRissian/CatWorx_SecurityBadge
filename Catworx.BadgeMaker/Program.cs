@@ -104,12 +104,48 @@ namespace CatWorx.BadgeMaker
     class Program
     {
         static async Task Main(string[] args)
-        {
-            //List<Employee> employees = PeopleFetcher.GetEmployees();
-            List<Employee> employees = await PeopleFetcher.GetFromApi();
-            Util.PrintEmployees(employees);
-            Util.MakeCSV(employees);
-            await Util.MakeBadges(employees);
+  {
+            List<Employee> employees = new List<Employee>();
+            bool isRunning = true;
+
+            while (isRunning)
+            {
+                // Presnt user with choises
+                Console.WriteLine("\nChoose an option:");
+                Console.WriteLine("1: Enter data manually");
+                Console.WriteLine("2: Get random data from API");
+                Console.WriteLine("3: Exit");
+                Console.Write("Your choice: ");
+                string option = Console.ReadLine()!;
+
+                switch (option)
+                {
+                    case "1":
+                        employees = PeopleFetcher.GetEmployees();
+                        break;
+                    case "2":
+                        employees = await PeopleFetcher.GetFromApi();
+                        break;
+                    case "3":
+                        isRunning = false;
+                        Console.WriteLine("Exiting...");
+                        continue;
+                    default:
+                        Console.WriteLine("Invalid option, please try again.");
+                        continue;
+                }
+
+                if (employees.Count > 0)
+                {
+                    Util.PrintEmployees(employees);
+                    Util.MakeCSV(employees);
+                    await Util.MakeBadges(employees);
+                }
+                else
+                {
+                    Console.WriteLine("No employees to process.");
+                }
+            }
         }
     }
 }
