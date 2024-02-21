@@ -62,7 +62,7 @@ If you encounter any issues with badge generation, ensure that the "badge.png" f
 
 ## Contributors
 
-(Me!)[https://github.com/LandoCodesRissian]
+[Me!](https://github.com/LandoCodesRissian)
 
 ## License
 
